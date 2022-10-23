@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -189.8148098911973,
-    "scrollLeft": -219.32869801452384,
-    "zoomLevel": 0.8,
+    "scrollTop": -160.30092176787096,
+    "scrollLeft": -565.3935038527434,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -48,7 +48,7 @@
         "columns": [
           {
             "name": "ANSWERS_UNIQUE_ID",
-            "comment": "답변대표겂",
+            "comment": "답변대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -97,7 +97,7 @@
           "active": false,
           "left": 652.2727,
           "top": 65.9371,
-          "zIndex": 199,
+          "zIndex": 213,
           "widthName": 61.66796875,
           "widthComment": 60
         },
@@ -179,7 +179,7 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 82.7162,
           "top": 60.0695,
           "zIndex": 211,
@@ -195,7 +195,7 @@
         "columns": [
           {
             "name": "ANSWERS_UNIQUE_ID",
-            "comment": "답변대표겂",
+            "comment": "답변대표값",
             "dataType": "VARCHAR(200)",
             "default": "",
             "option": {
@@ -244,7 +244,7 @@
           "active": false,
           "left": 616.898,
           "top": 410.9948,
-          "zIndex": 198,
+          "zIndex": 215,
           "widthName": 90.94970703125,
           "widthComment": 60
         },
