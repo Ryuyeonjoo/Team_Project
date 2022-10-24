@@ -1,9 +1,11 @@
 package Survey;
 
-import java.sql.Statement;
+import java.sql.*;
+import java.util.Scanner;
 
 public class SurveySelect {
     public void SelectFunction(Statement statement){
-        
+
     }
+    
 }
