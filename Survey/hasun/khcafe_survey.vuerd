@@ -300,36 +300,13 @@
               "widthDefault": 60
             },
             "id": "57fff146-6f3a-443f-8850-a718d03e7827"
-          },
-          {
-            "name": "ANSWER",
-            "comment": "답변",
-            "dataType": "INTEGER",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "12d4f765-b08f-47c8-bf60-3e486da663fd"
           }
         ],
         "ui": {
           "active": false,
-          "left": 921,
-          "top": 438.4,
-          "zIndex": 5,
+          "left": 901.8,
+          "top": 452.8,
+          "zIndex": 7,
           "widthName": 61.66796875,
           "widthComment": 60
         },
@@ -447,8 +424,8 @@
           "columnIds": [
             "67f90463-676c-45d2-bc77-966ebd7e4ea6"
           ],
-          "x": 921,
-          "y": 503.65,
+          "x": 901.8,
+          "y": 507.8,
           "direction": "left"
         },
         "constraintName": "fk_questions_list_to_answers",
@@ -525,8 +502,8 @@
           "columnIds": [
             "57fff146-6f3a-443f-8850-a718d03e7827"
           ],
-          "x": 1374.845703125,
-          "y": 503.65,
+          "x": 1355.645703125,
+          "y": 507.8,
           "direction": "right"
         },
         "constraintName": "fk_example_list_to_answers",
