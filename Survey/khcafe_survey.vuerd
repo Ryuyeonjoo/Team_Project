@@ -3,8 +3,13 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
+<<<<<<< HEAD
     "scrollTop": 0,
     "scrollLeft": 0,
+=======
+    "scrollTop": -9.6,
+    "scrollLeft": -8,
+>>>>>>> 4705080ca54ca9e9c746d96c6e14e142a71d8d44
     "zoomLevel": 1,
     "show": {
       "tableComment": true,
@@ -43,6 +48,7 @@
   "table": {
     "tables": [
       {
+<<<<<<< HEAD
         "name": "USERS_LIST",
         "comment": "사용자(설문자) 목록",
         "columns": [
@@ -516,11 +522,25 @@
           "left": 642,
           "top": 52,
           "zIndex": 3,
+=======
+        "name": "",
+        "comment": "",
+        "columns": [],
+        "ui": {
+          "active": false,
+          "left": 161.2,
+          "top": 333.2,
+          "zIndex": 4,
+>>>>>>> 4705080ca54ca9e9c746d96c6e14e142a71d8d44
           "widthName": 60,
           "widthComment": 87.921875
         },
         "visible": true,
+<<<<<<< HEAD
         "id": "ebfb01d2-cefb-41b6-983f-1506197908f1"
+=======
+        "id": "d8548dce-3473-4404-8d59-97ada1fb1413"
+>>>>>>> 4705080ca54ca9e9c746d96c6e14e142a71d8d44
       }
     ],
     "indexes": []
@@ -529,6 +549,7 @@
     "memos": []
   },
   "relationship": {
+<<<<<<< HEAD
     "relationships": [
       {
         "identification": false,
@@ -687,5 +708,8 @@
         "id": "6f823e36-4a58-4187-8645-22b62da3dd61"
       }
     ]
+=======
+    "relationships": []
+>>>>>>> 4705080ca54ca9e9c746d96c6e14e142a71d8d44
   }
 }
