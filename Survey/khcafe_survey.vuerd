@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -9.6,
-    "scrollLeft": -8,
-    "zoomLevel": 1,
+    "scrollTop": -662.4000157928476,
+    "scrollLeft": -584.4000139331832,
+    "zoomLevel": 0.3,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -41,23 +41,7 @@
     "pluginSerializationMap": {}
   },
   "table": {
-    "tables": [
-      {
-        "name": "",
-        "comment": "",
-        "columns": [],
-        "ui": {
-          "active": false,
-          "left": 161.2,
-          "top": 333.2,
-          "zIndex": 4,
-          "widthName": 60,
-          "widthComment": 60
-        },
-        "visible": true,
-        "id": "d8548dce-3473-4404-8d59-97ada1fb1413"
-      }
-    ],
+    "tables": [],
     "indexes": []
   },
   "memo": {

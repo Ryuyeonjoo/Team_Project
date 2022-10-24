@@ -2,7 +2,7 @@ package Survey;
 
 import java.sql.*;
 import java.util.Scanner;
-public class SurveyMain {
+public class SurveyMain_copy {
 
     private static String flag; //필드 추가 함
     private static String Q;
@@ -20,7 +20,6 @@ public class SurveyMain {
         try{
             Connection connection = DriverManager.getConnection(url, user, password);
             Statement statement = connection.createStatement();
-
             System.out.println("P.설문시작 | S.통계 | Q.종료");
             String flag = sc.next();
             
@@ -40,6 +39,8 @@ public class SurveyMain {
                 
 
             }
+
+            
             
         } catch (SQLException exception){
             exception.printStackTrace();
