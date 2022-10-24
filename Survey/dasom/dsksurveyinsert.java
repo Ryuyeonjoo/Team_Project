@@ -21,6 +21,21 @@ public class dsksurveyinsert {
             String query4 ="INSERT INTO questions_list (QUESTIONS_UID, QUESTIONS)"+
             "VALUES ('Q5', '5. 해당 매장을 다음에도 재방문 하실 의향이 있으십니까?')";
             
+            String quer5 = "INSERT INTO example_list (EXAMPLE_UID, EXAMPLE)"+ 
+            "VALUES ('E1', '(1)전혀 아니다')"; 
+           
+            String quer6 = "INSERT INTO example_list (EXAMPLE_UID, EXAMPLE)"+ 
+            "VALUES ('E2', '(2) 아니다')"; 
+           
+            String quer57 = "INSERT INTO example_list (EXAMPLE_UID, EXAMPLE)"+ 
+            "VALUES ('E3', '(3) 보통이다')"; 
+            
+            String quer8 = "INSERT INTO example_list (EXAMPLE_UID, EXAMPLE)"+ 
+            "VALUES ('E4', '(4) 그렇다')"; 
+           
+            String quer9 = "INSERT INTO example_list (EXAMPLE_UID, EXAMPLE)"+ 
+            "VALUES ('E5', '(5) 매우 그렇다')"; 
+
 
         statement.execute(query);
             
