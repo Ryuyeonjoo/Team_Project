@@ -19,8 +19,8 @@ public class SurveyMain {
                     System.out.println("P.설문시작 | S.통계 | Q.종료");
                     String choice = sc.nextLine();
                     if(choice.equals("P") ){
-                        SurveyQuestion question = new SurveyQuestion();
-                        question.QuestionFunction(statement);
+                        Survey question = new Survey();
+                        question.SurveyFunction(statement);
                     } else if(choice.equals("S")){
                         SurveyTotal total = new SurveyTotal();
                         total.TotalFunction(statement);
