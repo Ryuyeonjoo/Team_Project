@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -181.90092176787104,
-    "scrollLeft": -22.99350385274342,
+    "scrollTop": -9.234255101204356,
+    "scrollLeft": -355.99350385274397,
     "zoomLevel": 0.9,
     "show": {
       "tableComment": true,
@@ -97,7 +97,7 @@
           "active": false,
           "left": 652.2727,
           "top": 65.9371,
-          "zIndex": 4,
+          "zIndex": 3,
           "widthName": 61.66796875,
           "widthComment": 60
         },
@@ -182,7 +182,7 @@
           "active": false,
           "left": 82.7162,
           "top": 60.0695,
-          "zIndex": 3,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 87.921875
         },
@@ -244,7 +244,7 @@
           "active": false,
           "left": 616.898,
           "top": 410.9948,
-          "zIndex": 5,
+          "zIndex": 4,
           "widthName": 90.94970703125,
           "widthComment": 60
         },
@@ -306,7 +306,7 @@
           "active": false,
           "left": 97.8396,
           "top": 561.3034,
-          "zIndex": 2,
+          "zIndex": 1,
           "widthName": 101.759765625,
           "widthComment": 60
         },
@@ -366,9 +366,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 87.8611,
-          "top": 321.7716,
-          "zIndex": 1,
+          "left": 40.0834,
+          "top": 300.6603,
+          "zIndex": 5,
           "widthName": 72.47802734375,
           "widthComment": 60
         },
@@ -401,8 +401,8 @@
           "columnIds": [
             "a201d4d5-77ad-49ff-9ff1-bde1ce39a7c4"
           ],
-          "x": 328.45045546874996,
-          "y": 431.7716,
+          "x": 280.67275546875,
+          "y": 410.6603,
           "direction": "bottom"
         },
         "constraintName": "fk_questions_list_to_questions",
@@ -427,8 +427,8 @@
           "columnIds": [
             "c9ab209c-52df-4a82-aea9-b993e95c7f33"
           ],
-          "x": 328.45045546874996,
-          "y": 321.7716,
+          "x": 280.67275546875,
+          "y": 300.6603,
           "direction": "top"
         },
         "constraintName": "fk_users_to_questions",
