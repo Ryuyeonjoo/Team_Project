@@ -21,21 +21,31 @@ public class SurveyMain {
             Connection connection = DriverManager.getConnection(url, user, password);
             Statement statement = connection.createStatement();
 
+<<<<<<< HEAD
             System.out.println("P.설문시작 | S.통계 | Q.종료");
             String flag = sc.next();
             
             while(!flag.equals('Q')){             
                 if(flag.equals('P') ){
+=======
+
+            while(true){             
+                System.out.print("P.설문시작 | S.통계 | Q.종료");
+                String choice = sc.next();
+                if(choice.equals('P') ){
+>>>>>>> 6b8b44652acc35189366a5a7a1493dfb8f92edb4
                     SurveyQuestion question = new SurveyQuestion();
                     question.QuestionFunction(statement);
-                } else if(flag.equals('S')){
+                } else if(choice.equals('S')){
                     SurveyTotal total = new SurveyTotal();
                     total.TotalFunction(statement);
-                } else{
+                } else if(choice.equals('Q')){
                     System.out.print("소중한 시간을 내어 설문에 참여해 주셔서 감사합니다." +
                     "앞으로도 고객님께서 더욱 만족하실 수 있도록 노력하는 KHCAFE가 되겠습니다." +
                     "감사합니다.");
                     break;
+                } else {
+                    System.out.print("잘못된 입력입니다. 다시 입력해주세요.");
                 }
                 
 
@@ -44,5 +54,6 @@ public class SurveyMain {
         } catch (SQLException exception){
             exception.printStackTrace();
         }
+        sc.close();
     }
 }
