@@ -33,9 +33,7 @@ public class SurveyMain {
                     "감사합니다.");
                     break;
                 }
-                
-
-            }
+                            }
             
         } catch (SQLException exception){
             exception.printStackTrace();
