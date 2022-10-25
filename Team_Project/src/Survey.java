@@ -22,8 +22,8 @@ public class Survey {
         "설문에 임해주시기 바랍니다.");
 
         String query = "SELECT answers.QUESTIONS_UID, answers.EXAMPLE_UID"
-        + "FROM (answers inner JOIN questions_list ON answers.QUESTIONS_UID = questions_list.QUESTIONS_UID)"
-        + "INNER JOIN example_list ON answers.EXAMPLE_UID = example_list.EXAMPLE_UID";
+        + " FROM (answers inner JOIN questions_list ON answers.QUESTIONS_UID = questions_list.QUESTIONS_UID)"
+        + " INNER JOIN example_list ON answers.EXAMPLE_UID = example_list.EXAMPLE_UID";
         ResultSet resultSet;
 
         
