@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class SurveyMain {
         public static void main(String[] args){
+
             Scanner sc = new Scanner(System.in);
             // Done - MySQL workbench  실행 : JDBC - 
             // - User/password와 접속 IP:port(localhost:3306) 접속
