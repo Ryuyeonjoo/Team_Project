@@ -52,7 +52,7 @@ public class Survey {
     
 }
 //  //고객정보 입력
-//  int co = 10;
+
 //  while (true) {
 //  System.out.println("고객님의 성함과 010을 제외한 휴대폰 번호 뒷자리를 입력해 주세요.");
 //  System.out.print("성함 ) ");
