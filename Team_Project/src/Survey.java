@@ -37,6 +37,7 @@ public class Survey {
                     System.out.print(resultSet2.getString("EXAMPLE"));
                     System.out.print(" ");
                 }
+                
                 System.out.println("");
                 System.out.print("답변 : ");
                 int answer = sc.nextInt();
