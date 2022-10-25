@@ -13,14 +13,14 @@ public class SurveyMain {
             try{
                 Connection connection = DriverManager.getConnection(url, user, password);
                 Statement statement = connection.createStatement();
-    
+                Statement statement2 = connection.createStatement();
     
                 while(true){             
                     System.out.println("P.설문시작 | S.통계 | Q.종료");
                     String choice = sc.nextLine();
                     if(choice.equals("P") ){
                         Survey question = new Survey();
-                        question.SurveyFunction(statement);
+                        question.SurveyFunction(statement,statement2);
                     } else if(choice.equals("S")){
                         SurveyTotal total = new SurveyTotal();
                         total.TotalFunction(statement);
