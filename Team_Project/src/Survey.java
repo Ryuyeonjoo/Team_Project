@@ -4,8 +4,6 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 
-
-
 public class Survey {
     public void SurveyFunction(Statement statement, Statement statement2){
         Scanner sc = new Scanner(System.in);
@@ -37,15 +35,15 @@ public class Survey {
                     System.out.print(resultSet2.getString("EXAMPLE"));
                   
                     System.out.println(" ");
-
-                      
-
+                    break;
                 }
-                
-                System.out.println("");
+               System.out.println("");
                 System.out.print("답변 : ");
                 int answer = sc.nextInt();
+                 }
+                if(example.equals("1") || example.equals("2") || example.equals("3") || example.equals("4") || example.equals("5")){
             }
+
         } catch(SQLException e){
             e.printStackTrace();
         }
