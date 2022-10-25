@@ -35,6 +35,7 @@ public class Survey {
 
                 System.out.println(resultSet.getString("QUESTIONS_UID"));         
              
+
                 System.out.println("");
                 System.out.print("답변 : ");
                 int answer = sc.nextInt();
@@ -42,6 +43,8 @@ public class Survey {
         } catch(SQLException e){
             e.printStackTrace();
         }
+        sc.close();
     }
 }
- 
+
+
