@@ -21,7 +21,13 @@ public class Survey {
         "1번에서부터 5번까지 고객님께서 매장에 대해 경험하신 내용을 바탕으로\n" +
         "설문에 임해주시기 바랍니다.");
 
+<<<<<<< HEAD
         String question = "SELECT * FROM questions_list ORDER BY QUESTIONS";
+=======
+        String query = "SELECT answers.QUESTIONS_UID, answers.EXAMPLE_UID"
+        + " FROM (answers inner JOIN questions_list ON answers.QUESTIONS_UID = questions_list.QUESTIONS_UID)"
+        + " INNER JOIN example_list ON answers.EXAMPLE_UID = example_list.EXAMPLE_UID";
+>>>>>>> 33c997450d4e2cc0b7db37bc29928637a58f4b75
         ResultSet resultSet;
         String example = "SELECT * FROM example_list ORDER BY EXAMPLE";
         ResultSet resultSet2;
