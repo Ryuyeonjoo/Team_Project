@@ -20,24 +20,11 @@ public class Survey {
         "설문에 임해주시기 바랍니다.");
 
         String question = "SELECT * FROM questions_list ORDER BY QUESTIONS";
-<<<<<<< HEAD
-=======
-        String query = "SELECT answers.QUESTIONS_UID, answers.EXAMPLE_UID"
-        + " FROM (answers inner JOIN questions_list ON answers.QUESTIONS_UID = questions_list.QUESTIONS_UID)"
-        + " INNER JOIN example_list ON answers.EXAMPLE_UID = example_list.EXAMPLE_UID";
-<<<<<<< HEAD
-=======
->>>>>>> 33c997450d4e2cc0b7db37bc29928637a58f4b75
->>>>>>> 756e6140206dd24795421ce60a2b685e4e425d19
-=======
->>>>>>> 239fc596d1304679f51c666c39411d1a96be2f73
         ResultSet resultSet;
         String example = "SELECT * FROM example_list ORDER BY EXAMPLE";
         ResultSet resultSet2;
        
-        
         try{
-            
             
             resultSet = statement.executeQuery(question);
             //문항 출력
@@ -66,10 +53,4 @@ public class Survey {
         
     }
     
-}
-<<<<<<< HEAD
-=======
- 
-
-
->>>>>>> 756e6140206dd24795421ce60a2b685e4e425d19
+}   
