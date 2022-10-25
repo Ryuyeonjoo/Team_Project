@@ -36,6 +36,16 @@ public class SurveyQuestion {
 
 
         statement.execute(query);
+        statement.execute(query1);
+        statement.execute(query2);
+        statement.execute(query3);
+        statement.execute(query4);
+        statement.execute(query5);
+        statement.execute(query6);
+        statement.execute(query7);
+        statement.execute(query8);
+        statement.execute(query9);
+       
             
         } catch (Exception e) {
             e.printStackTrace();
