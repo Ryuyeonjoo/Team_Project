@@ -1,5 +1,8 @@
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
+
 
 
 
@@ -13,6 +16,30 @@ public class Survey {
         String name = sc.nextLine();
         System.out.print("휴대폰 번호 8자리) ");
         String phone = sc.nextLine();
+        System.out.println("------------------------------------------------------");
+        System.out.println("고객님께서 방문하신 KHCAFE 강남점에 관련한 설문 조사입니다.\n"+
+        "1번에서부터 5번까지 고객님께서 매장에 대해 경험하신 내용을 바탕으로\n" +
+        "설문에 임해주시기 바랍니다.");
+
+        String query = "SELECT * FROM questions_list, example_list ORDER BY QUESTIONS, EXAMPLE";
+        ResultSet resultSet;
+        
+        try{
+            resultSet = statement.executeQuery(query);
+
+            //문항 출력
+            while(resultSet.next()){
+                System.out.println("문항 " + resultSet.getString("QUESTIONS"));
+                while(resultSet.next()){
+                System.out.print("보기 " + resultSet.getString("EXAMPLE"));
+                System.out.print("");
+                }
+                // System.out.print("답변 : ");
+                // int answer = sc.nextInt();
+            }
+        } catch(SQLException e){
+            e.printStackTrace();
+        }
     }
     
 }
