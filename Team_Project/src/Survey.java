@@ -32,7 +32,8 @@ public class Survey {
         System.out.println("------------------------------------------------------");
         System.out.println("고객님께서 방문하신 CAFE에 관련한 설문 조사입니다.\n"+
         "1번에서부터 5번까지 고객님께서 매장에 대해 경험하신 내용을 바탕으로\n" +
-        "설문에 임해주시기 바랍니다.");
+        "설문에 임해주시기 바랍니다.\n");
+        
 
         String question = "SELECT * FROM questions_list ORDER BY QUESTIONS";
         ResultSet resultSet;
@@ -69,11 +70,7 @@ public class Survey {
         } catch(SQLException e){
             e.printStackTrace();
         }
-    }
-    public void example(Statement statement){
-        
-    }
-    
+    }   
 }
 
 
