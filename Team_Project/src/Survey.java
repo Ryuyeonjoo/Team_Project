@@ -3,16 +3,13 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-
-
-
 public class Survey {
     public void SurveyFunction(Statement statement, Statement statement2){
         Scanner sc = new Scanner(System.in);
 
         System.out.println("고객님의 성함과 010을 제외한 휴대폰 번호 뒷자리를 입력해주세요.");
 
-        while(true) {
+        while(true) { //고객의 인적사항을 입력
             System.out.print("성함) ");
             String name = sc.nextLine();
             if (!name.matches(".*[0-9].*")) {
@@ -22,6 +19,7 @@ public class Survey {
          }
          while(true) {
             System.out.print("휴대폰 번호 (8자리)) ");
+
             String phone = sc.nextLine();
             if (phone.matches("([0-9]{4})-?([0-9]{4})")) {
                break;
@@ -40,13 +38,11 @@ public class Survey {
         String example = "SELECT * FROM example_list ORDER BY EXAMPLE";
         ResultSet resultSet2;
        
-        
         try{
-            
-            
+             
             resultSet = statement.executeQuery(question);
-            //문항 출력
-            while(resultSet.next()){               
+            
+            while(resultSet.next()){ //문항 및 답항 출력, 설문시작              
             resultSet2 = statement2.executeQuery(example);
                 System.out.println(resultSet.getString("QUESTIONS"));   
                     while(resultSet2.next()){
@@ -76,11 +72,5 @@ public class Survey {
 
 
 
-// System.out.println("고객님의 성함과 010을 제외한 휴대폰 번호 뒷자리를 입력해주세요."); //어쩔지 몰라 예비용
 
-//         System.out.print("성함) ");
-//         String name = sc.nextLine();
-//         System.out.print("휴대폰 번호 8자리) ");
-//         String phone = sc.nextLine();
-//         System.out.println("------------------------------------------------------");
 
