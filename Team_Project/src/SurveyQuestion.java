@@ -1,7 +1,7 @@
 import java.sql.Statement;
 
 public class SurveyQuestion {
-    public void QuestionFunction(Statement statement){
+    public void QuestionFunction(Statement statement){ //문항 및 답항
         try {
             // insert
             String query = "INSERT INTO questions_list (QUESTIONS_UID, QUESTIONS)"+ 

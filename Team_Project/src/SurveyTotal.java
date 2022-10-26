@@ -25,24 +25,4 @@ public class SurveyTotal {
 }
     
  
-//  public void answer(Statement statement){
-//     try{
-//         String question = "SELECT * FROM questions_list ORDER BY QUESTIONS";
-//         ResultSet resultSet;
-//         String example = "SELECT * FROM example_list ORDER BY EXAMPLE";
-//         ResultSet resultSet2;
-       
-       
-//         resultSet = statement.executeQuery(question);
-//         resultSet2 = statement2.executeQuery(example);
- 
-//         System.out.println("Q(1) Q(2) Q(3) Q(4) Q(5)");
-//         System.out.println("설문자 )");
 
-// }catch(SQLException e){
-//     e.printStackTrace();
-// }    
-
-//     }
-
-// }
