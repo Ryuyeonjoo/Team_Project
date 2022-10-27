@@ -1,6 +1,19 @@
 # ☕김배류 TEAM PROJECT(CAFE SERVICE SURVEY)
 ## SURVEY TOPIC
-- KH CAFE 강남 지점 방문 고객에게 전달되는 고객 만족도 설문 조사 프로그램
+- 🥐KH CAFE 강남 지점 방문 고객에게 전달되는 고객 만족도 설문 조사 프로그램
+
+## MEMBER & PART
+- 🥯류연주: 설문 메인  
+⁕[SurveyMain](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/SurveyMain.java)  
+
+- 🌮배하선: 설문 진행   
+⁕ [Survey](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/Survey.java)  
+⁕ [SurveyQuestion](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/SurveyQuestion.java)
+
+- 🥞김다솜: 설문자별 답변 결과 및 질문별 총 답변 수 통계  
+⁕ [SurveyTotal](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/SurveyTotal.java)  
+⁕ [Users](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/Users.java)
+## 
 
 
 
