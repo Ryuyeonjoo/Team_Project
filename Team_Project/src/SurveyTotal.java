@@ -51,6 +51,9 @@ public class SurveyTotal {
                     }
                     break;
                 }
+                else{
+                    System.out.println("다시 입력해주세요.");
+                }
             }
             
         } catch (Exception exception) {
