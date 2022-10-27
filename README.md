@@ -13,7 +13,13 @@
 - 🥞김다솜: 설문자별 답변 결과 및 질문별 총 답변 수 통계  
 ⁕ [SurveyTotal](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/SurveyTotal.java)  
 ⁕ [Users](https://github.com/Ryuyeonjoo/Team_Project/blob/main/src/Users.java)
-## 
+
+## RUN
+<img length="{5%}" src="https://user-images.githubusercontent.com/115052767/198185839-8642d5d7-0429-4bf5-83d4-1aa254a46dab.PNG"/>
+<img length="{5%}" src="https://user-images.githubusercontent.com/115052767/198186361-a07ba213-c849-4d9d-84b4-0b0e69c02fc4.PNG"/>
+
+
+
 
 
 
